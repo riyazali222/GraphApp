@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">GraphApp</string>
+    <string name="text"> Create button_border.xml file in your drawable folder. And add button to
+        your XML activity layout and set background android:background="@drawable/button_border" .
+        If your button does not require a transparent background, then you can create an illusion of
+        a border using a Frame Layout.</string>
+    <string name="howtoapply">You have to fill all the required details.. after that you have to meet HR
+    .Furter enquiries contact company asap.</string>
+    <string name="detail">BASIC DETAILS</string>
+    <string name="details">BASIC DETAILS</string>
+    <string name="comments">COMMENTS</string>
+    <string name="space"></string>
 </resources>
