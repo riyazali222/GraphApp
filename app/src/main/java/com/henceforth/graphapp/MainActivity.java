@@ -13,7 +13,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         tabLayout = (TabLayout) findViewById(R.id.tabLayout);
-
         tabLayout = (TabLayout) findViewById(R.id.tabLayout);
         //Initializing viewPager
         viewPager = (HeightWrappingViewPager) findViewById(R.id.pager);
@@ -21,11 +20,14 @@ public class MainActivity extends AppCompatActivity {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         viewPager.setAdapter(adapter);
         tabLayout.setupWithViewPager(viewPager);
+
         tabLayout.getTabAt(0).setText(R.string.space);
         tabLayout.getTabAt(1).setText(R.string.detail);
         tabLayout.getTabAt(2).setText(R.string.comments);
         tabLayout.getTabAt(3).setText(R.string.detail);
         tabLayout.getTabAt(4).setText(R.string.space);
+//        tabLayout.setEnabled(false);
+//        tabLayout.setClickable(false);
         viewPager = (HeightWrappingViewPager) findViewById(R.id.pager);
 
     }
